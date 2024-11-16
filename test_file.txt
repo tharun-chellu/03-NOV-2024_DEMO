@@ -1,1 +1,3 @@
 tests git understanding with commits v1 by adding second change with 3rd comit with skip staging.
+Addding new steps for dii=ffer command 
+with modified 
