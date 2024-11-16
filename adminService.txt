@@ -1,2 +1,0 @@
-servicenow admin can add and remove users
-create the data for customers
