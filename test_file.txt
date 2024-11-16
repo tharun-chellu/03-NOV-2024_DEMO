@@ -1,1 +1,1 @@
-tests git understanding with commits v1
+tests git understanding with commits v1 by adding second change 
