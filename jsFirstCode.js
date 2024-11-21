@@ -8,3 +8,6 @@ console.log(x === true)
 
 let countries = ["india", "usa", "japan"];
 console.log(countries[1])
+
+let string  = chellu;
+console.log(string);
