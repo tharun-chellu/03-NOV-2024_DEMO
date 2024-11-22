@@ -6,3 +6,6 @@ if (rank > 0){
 }else{
     console.log (rank +" It is zero number");
 }
+
+let containerName = ["MT_PRODUCT", "MT_LIBRARY", "MT_PROJECT"];
+console.log (containerName[-1]);
