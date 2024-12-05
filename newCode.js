@@ -10,3 +10,7 @@ if (rank > 0){
 let containername = ["MT_PRODUCT", "MT_LIBRARY", "MT_PROJECT"];
 console.log (containername[-2]);
 console.log (containername[1]);
+
+let a = 20;
+batterName = "Rohit SharmA";
+console.log( a + batterName);
