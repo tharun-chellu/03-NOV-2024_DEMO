@@ -1,0 +1,1 @@
+// the given number if we reverse the number it should be same

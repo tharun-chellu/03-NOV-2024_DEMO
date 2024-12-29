@@ -43,5 +43,18 @@ console.log("sum is :"+ sum);
 
 
 // n = Math.floor(n/10);/// 4597/10 -> quetient is 45   (in js math.floor will take quotient)
-// console.log("sum of n value" + n);
+// 
+//  we can pickup only last digit
+//  console.log("sum of n value" + n);
 
+/* n=345 ld=0 sum=0+ (n/10 = answer (it is last digit "ld"))
+   n=34  ld=5 sum=5+
+   n=3   ld=4 sum=9+
+   n=0   ld=3 sum=12
+   if n=0 it will stop the process
+10 ) 345( 34 -> quotient(/)
+     340
+     ---
+     5 -> reminder(%-modules)
+     
+*/
