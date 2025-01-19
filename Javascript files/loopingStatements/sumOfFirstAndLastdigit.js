@@ -2,27 +2,26 @@
 
 // (*10 -> reverse number)(/10 -> sum of the number)
 
-let n = 345;   // ld = n%10;
+let n = 1235;   // ld = n%10;
 
 let fd = 0;
 let ld = 0;
 
-    // finding last digit (reminder is last digit)
-    ld = n%10;
-    console.log("The last digit ld value is : "+ ld);
+// finding last digit (reminder is last digit)
+ld = n % 10;
+console.log("The last digit ld value is : " + ld);
 
-while (n>0)
-    {
+while (n > 0) {
     //finding first digit 
-    n = Math.floor(n/10)
-    if (n>0){
-        fd=n
+    n = Math.floor(n / 10)
+    if (n > 0) {
+        fd = n
     }
 }
 
-console.log("The first digit fd value is : "+ fd);
-sum = fd +ld
-console.log("sum of first digit fd and last digit ld is : "+ sum);
+console.log("The first digit fd value is : " + fd);
+sum = fd + ld
+console.log("sum of first digit fd and last digit ld is : " + sum);
 
 
 // ld = ld/10; // reminder(%) of 345 is 7

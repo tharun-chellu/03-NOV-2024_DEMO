@@ -7,27 +7,26 @@
 // n / 10 computes the division.
 // Math.floor() ensures only the integer part (quotient) is retained.
 
-let n = 4597;
+let n = 7896;
 let sum = 0;
 let ld = 0;
 
-while (n>0)
-{
+while (n > 0) {
 
     console.log("sum value is " + sum);
     console.log("ld value is " + ld);
 
-    ld = n%10; 459/10
+    ld = n % 10; //459/10
     console.log("ld value is " + ld);
 
-    sum = sum +ld;
+    sum = sum + ld;
     console.log("sum value after ld is " + sum);
 
-    n = Math.floor(n/10);/// 459/10 -> quetient is 45   (in js math.floor will take quotient)
+    n = Math.floor(n / 10);/// 459/10 -> quetient is 45   (in js math.floor will take quotient)
     console.log("sum of n value" + n);
 }
 
-console.log("sum is :"+ sum);
+console.log("sum is :" + sum);
 
 
 
@@ -43,7 +42,7 @@ console.log("sum is :"+ sum);
 
 
 // n = Math.floor(n/10);/// 4597/10 -> quetient is 45   (in js math.floor will take quotient)
-// 
+//
 //  we can pickup only last digit
 //  console.log("sum of n value" + n);
 

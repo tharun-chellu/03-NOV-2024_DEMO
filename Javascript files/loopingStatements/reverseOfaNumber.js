@@ -14,23 +14,22 @@ let rn = 4567;
 let reverse = 0;
 
 
-while (rn>0)
-{
+while (rn > 0) {
 
-ld = rn%10;  // 4567%10 -> reminder is 7
-console.log("ld values is : "+ld);
+    ld = rn % 10;  // 4567%10 -> reminder is 7
+    console.log("ld values is : " + ld);
 
-reverse = reverse * 10 + ld; //  0*10+7 -> 7
-console.log("The addition of rev number is : "+reverse);
+    reverse = reverse * 10 + ld; //  0*10+7 -> 7
+    console.log("The addition of rev number is : " + reverse);
 
 
-rn = Math.floor(rn/10);  // 456/10 -> quetient is 45   (in js math.floor will take quotient)
-console.log("ld value is : "+rn);
+    rn = Math.floor(rn / 10);  // 456/10 -> quetient is 45   (in js math.floor will take quotient)
+    console.log("ld value is : " + rn);
 
 }
-console.log("reverse of number is : "+ reverse);
+console.log("reverse of number is : " + reverse);
 
-// 2nd itterartion 
+// 2nd itterartion with out using while condition
 
 // ld = rn%10;
 // console.log("ld values is : "+ld);
