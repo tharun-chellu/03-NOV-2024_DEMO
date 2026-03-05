@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 
-test('test in incognito mode', async ({page }) => {
+test('test in incognito mode', async ({ page }) => {
   // const context = await browser.newContext(); // Creates a new incognito context
   // const page = await context.newPage();
   const userName = page.locator("#username");
@@ -14,4 +14,4 @@ test('test in incognito mode', async ({page }) => {
   await signIn.click();
   await page.waitForLoadState('networkidle');
   await page.getByRole('link', { name: 'Logged In Successfully' }).click();
-}
+})
